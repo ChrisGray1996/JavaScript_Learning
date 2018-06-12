@@ -32,7 +32,7 @@ describe("raises x to power n", function() //describes can be nested
 
 describe("returns NaN for non-valid powers", function()
 {
-    
+
 it("for negative n the result is NaN", function()
 {
     assert.isNaN(pow(2, -1));
